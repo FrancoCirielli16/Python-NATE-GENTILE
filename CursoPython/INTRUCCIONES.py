@@ -27,7 +27,8 @@ if a == 3 or a > 3 or a < 3 or a != 3:
 b = 3
 b = b * 2
 b = b / 2
-b = b - 3
+b -= 1
+b += 1
 print(b % b)
 
 #INTRUCCIONES#
@@ -43,12 +44,18 @@ variable = input("Ingrese un valor") #Carga la varible con caracteres#
 variable = int(input("ingrese un numero entero")) #el numero que ingreses va a ser de tipo entero#
 variable = float(input("ingrese un numero flotante")) #el numero que ingrese va a ser de tipo flotante#
 variable = str(input("ingrese su nombre"))
+variable = None
 #ESTRUCTURAS DE CONTROL#
 
 if variable == 4: #si se cumple la condicion pasa tal cosa #
     print("algo")
 else:
     print("otra cosa")
+
+while variable != 1 and variable != 2 and variable != 3: #mientras estas condiciones no se cumplan#
+    variable = int(input("numero: 1,2,3")) #volvemos al inicio de la linea de while #
+
+
 
 #METODOS Y FUNCIONES#
 
