@@ -31,6 +31,13 @@ b -= 1
 b += 1
 print(b % b)
 
+#TIPOS DE VARIABLES#
+
+a = "HOLA " #string#
+a = 10 #entero#
+a = 10.5 #flotante#
+a = 'A' #caracteres#
+a = [] #vector#
 #INTRUCCIONES#
 
 #OUTPUT#
@@ -47,10 +54,13 @@ variable = str(input("ingrese su nombre"))
 variable = None
 #ESTRUCTURAS DE CONTROL#
 
-if variable == 4: #si se cumple la condicion pasa tal cosa #
-    print("algo")
+if a<10:
+   print ("Es menor de 10")
+elif a<20: #elif remplaza el else-if es un else con una condicion#
+   print ("Es menor de 20")
 else:
-    print("otra cosa")
+    print ("Es mayor de 20")
+
 
 while variable != 1 and variable != 2 and variable != 3: #mientras estas condiciones no se cumplan#
     variable = int(input("numero: 1,2,3")) #volvemos al inicio de la linea de while #
@@ -65,3 +75,6 @@ type(variable) # Te enseña que tipo de variables es #
 float(variable) # convierte a numero con coma o flotante#
 int(variable) # convierte a numero entero#
 len("HOLA") #devuelve la cantidad de caracteres que tiene un string#
+vector.append() #Agrega al vector algo#
+vector.pop() #Saca del vector el ultimo elemento#
+variable in vector #Esto devuelve si esa variable se encuentra o no en el vector#
