@@ -52,7 +52,7 @@ while vida_pikachu_actual > 0 and vida_squiertel_actual > 0:
     print("Turno de Squiertel")
 
     ataqueS = None
-    while ataqueS != "P" and ataqueS != "B" and ataqueS != "A":
+    while ataqueS not in ["A", "P", "B", "N"]:
         ataqueS = input("Elegir el ataque:"+"[P]-Placaje "+"[B]-Burbuja "+"[A]-Pistola de agua "+"[N]-No hacer nada: ")
 
         if ataqueS == "P":
