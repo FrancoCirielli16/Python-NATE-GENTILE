@@ -65,7 +65,16 @@ else:
 while variable != 1 and variable != 2 and variable != 3: #mientras estas condiciones no se cumplan#
     variable = int(input("numero: 1,2,3")) #volvemos al inicio de la linea de while #
 
+#ITERADOR#
 
+for a in vector:
+    print(a)
+
+for a in range(5):
+    print(a)
+
+for letra in frase:
+    print(letra)
 
 #METODOS Y FUNCIONES#
 
@@ -77,4 +86,5 @@ int(variable) # convierte a numero entero#
 len("HOLA") #devuelve la cantidad de caracteres que tiene un string#
 vector.append() #Agrega al vector algo#
 vector.pop() #Saca del vector el ultimo elemento#
-variable in vector #Esto devuelve si esa variable se encuentra o no en el vector#
+variable in vector #Esto devuelve si esa variable se encuentra o no en el vector o string#
+range(1, 5) or range(15) or range(cantidad_de_veces) #Esta funcion convierte el input otorgado en un vector para iterar [1,2,3,4] or [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]#

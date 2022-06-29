@@ -1,5 +1,6 @@
 #EJERCICIO LISTA DE LA COMPRA#
 
+"""
 lista_compra = []
 producto = None
 while producto != "Q":
@@ -13,3 +14,21 @@ while producto != "Q":
             lista_compra.append(producto)
 print("La lista de la compra es: {}".format(lista_compra))
 
+"""
+
+#EJERCICIO CON FOR #
+
+comas = 0
+puntos = 0
+espacios = 0
+texto = input("introduzca el texto que quiere analizar")
+caracteres = [',', '.', ' ']
+for char in texto:
+    if char == ',':
+        comas += 1
+    elif char == '.':
+        puntos += 1
+    elif char == ' ':
+        espacios += 1
+
+print("Las cantidad de comas:{} puntos:{} espacios:{}".format(comas,puntos,espacios))
