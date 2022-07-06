@@ -16,8 +16,10 @@ print("La lista de la compra es: {}".format(lista_compra))
 
 """
 
+
 #EJERCICIO CON FOR #
 
+"""
 comas = 0
 puntos = 0
 espacios = 0
@@ -32,3 +34,11 @@ for char in texto:
         espacios += 1
 
 print("Las cantidad de comas:{} puntos:{} espacios:{}".format(comas,puntos,espacios))
+"""
+
+#EJERCICIO CON FOR 2#
+
+#replicar la tabla del 2#
+tabla = int(input('Ingresa la tabla que deasea generar : '))
+for a in range(1,11):
+    print("{} x {} = {}".format(tabla,a,a*tabla))
