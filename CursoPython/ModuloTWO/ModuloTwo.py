@@ -37,8 +37,53 @@ print("Las cantidad de comas:{} puntos:{} espacios:{}".format(comas,puntos,espac
 """
 
 #EJERCICIO CON FOR 2#
+"""
 
 #replicar la tabla del 2#
 tabla = int(input('Ingresa la tabla que deasea generar : '))
 for a in range(1,11):
-    print("{} x {} = {}".format(tabla,a,a*tabla))
+    if a % 2 == 0:
+        print("{} x {} = {}".format(tabla,a,a*tabla))
+"""
+
+#EJERCICIO DE NUMEROS#
+
+"""
+pregunta = str(input("deseas agregar un numero a tu lista S/N: "))
+numeros_de_usuario = []
+while pregunta != 'N':
+    numeros_de_usuario.append(int(input("Ingresa el numero que deseas: ")))
+    pregunta = str(input("deseas agregar un numero a tu lista S/N: "))
+
+
+numero_pequeno = numeros_de_usuario[0]
+numero_grande = numeros_de_usuario[0]
+
+for numero in numeros_de_usuario[1:]:
+    if numero_pequeno<numero:
+        numero_pequeno = numero
+    if numero_grande>numero:
+        numero_grande = numero
+
+print("Numero mas grande {} ".format(numero_grande))
+print("Numero mas chico {}".format(numero_pequeno))
+print("Numero mas Grande {}".format(max(numeros_de_usuario)))
+print("Numero mas chico {}".format(min(numeros_de_usuario)))
+
+"""
+
+#Manera mas eficiente que la de arriba #
+numeros_introducidos = input("Ingrese la lista de numeros que desea agregar separados por una coma: ")
+numeros_de_usuario = [int(numero) for numero in numeros_introducidos.split(",")]
+
+numero_pequeno = numeros_de_usuario[0]
+numero_grande = numeros_de_usuario[0]
+
+for numero in numeros_de_usuario[1:]:
+    if numero_pequeno>numero:
+        numero_pequeno = numero
+    if numero_grande<numero:
+        numero_grande = numero
+
+print("Numero mas grande {} ".format(numero_grande))
+print("Numero mas chico {}".format(numero_pequeno))

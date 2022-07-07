@@ -77,7 +77,7 @@ for letra in frase:
     print(letra)
 
 #METODOS Y FUNCIONES#
-
+int() #Convierte lo que le pasemos a entero#
 max(1,2,3) #Devuelve el maximo entre la cantidad que numeros que le pases#
 min(1,2,3) #Devuelve el minimo entre la cantidad de numeros que le pases#
 type(variable) # Te enseña que tipo de variables es #
@@ -86,5 +86,22 @@ int(variable) # convierte a numero entero#
 len("HOLA") #devuelve la cantidad de caracteres que tiene un string#
 vector.append() #Agrega al vector algo#
 vector.pop() #Saca del vector el ultimo elemento#
+variable = numeros.split(",") #Rompe una cadena de string en el caracter que le pasemos#
 variable in vector #Esto devuelve si esa variable se encuentra o no en el vector o string#
 range(1, 5) or range(15) or range(cantidad_de_veces) #Esta funcion convierte el input otorgado en un vector para iterar [1,2,3,4] or [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]#
+
+#Maneras de trabajar con un vector#
+
+#En ves de hacer esto#
+
+numeros_introducidos = input("Ingrese la lista de numeros que desea agregar separados por una coma")
+numeros_de_usuario = numeros_introducidos.split(",")
+lista_de_numeros = []
+
+for numero in numeros_de_usuario:
+    lista_de_numeros.append(int(numero))
+
+#Mejor hacer esto#
+
+numeros_introducidos = input("Ingrese la lista de numeros que desea agregar separados por una coma")
+numeros_de_usuario = [int(numero) for numero in numeros_introducidos.split(",")]
