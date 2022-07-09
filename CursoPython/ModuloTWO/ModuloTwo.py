@@ -87,3 +87,4 @@ for numero in numeros_de_usuario[1:]:
 
 print("Numero mas grande {} ".format(numero_grande))
 print("Numero mas chico {}".format(numero_pequeno))
+print(len("#####     #######################################################"))
