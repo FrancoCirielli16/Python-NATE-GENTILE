@@ -65,7 +65,7 @@ while not end_game:
             print(" {} ".format(char_to_draw), end="")
         print("|")
     print("+" + "-" * (WIDTH * 3) + "+")
-
+    print("\n"+"Comida ingerida: {} ".format(tail_length), end="")
 
     #Mov#
 
@@ -102,11 +102,19 @@ while not end_game:
         print("\n")
         print("\n")
         print("\n")
-        print("-------------GAME OVER------------")
+        print("|-------------------------------------------------|")
+        print("|------------------GAME OVER----------------------|")
+        print("|--------La serpiente choco con su cola-----------|")
+        print("|---------------Tu record fue {}------------------|".format(tail_length))
+        print("|-------------------------------------------------|")
         print("\n")
         print("\n")
         print("\n")
     elif end_game == True:
         print("\n")
-        print("Nos vemos")
+        print("|-------------------------------------------------|")
+        print("|------------------NOS VEMOS----------------------|")
+        print("|-------------HAS CERRADO EL JUEGO----------------|")
+        print("|---------------Tu record fue {}------------------|".format(tail_length))
+        print("|-------------------------------------------------|")
         print("\n")
