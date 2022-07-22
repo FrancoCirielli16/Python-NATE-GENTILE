@@ -89,7 +89,7 @@ vector.pop() #Saca del vector el ultimo elemento#
 variable = numeros.split(",") #Rompe una cadena de string en el caracter que le pasemos#
 variable in vector #Esto devuelve si esa variable se encuentra o no en el vector o string#
 range(1, 5) or range(15) or range(cantidad_de_veces) #Esta funcion convierte el input otorgado en un vector para iterar [1,2,3,4] or [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]#
-
+nombre2 = nombre[::-1] #Da vuelta el string#
 #Maneras de trabajar con un vector#
 
 #En ves de hacer esto#
