@@ -105,3 +105,18 @@ for numero in numeros_de_usuario:
 
 numeros_introducidos = input("Ingrese la lista de numeros que desea agregar separados por una coma")
 numeros_de_usuario = [int(numero) for numero in numeros_introducidos.split(",")]
+
+
+#Funciones#
+
+#Se comienza con def#
+
+def nombredelafuncion():
+    return Loquese necesita
+
+
+#Si se necesita escribir en un archivo txt#
+
+a = open("Lo que quieras", "w") # w porque es un archivo de escritura r si se quiere leer y a para agregar#
+a.write("\n".join(lista)) #se agregaria al txt por enters lo que este en la lista#
+a.close()#cierra el txt#
