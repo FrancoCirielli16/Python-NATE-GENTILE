@@ -120,3 +120,9 @@ lista =["pan","arroz","etc"]
 a = open("Lo que quieras", "w") # w porque es un archivo de escritura r si se quiere leer y a para agregar#
 a.write("\n".join(lista)) #se agregaria al txt por enters lo que este en la lista#
 a.close()#cierra el txt#
+
+#Manera mas eficiente de abrir y cerrar archivos#
+
+with open("Nombre.txt", "w") as mi_archivo:
+    mi_archivo.write("\n".join(lista))#Escribo en mi archivo#
+#desde aca ya cierra sin identacion#
