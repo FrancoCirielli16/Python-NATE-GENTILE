@@ -112,11 +112,11 @@ numeros_de_usuario = [int(numero) for numero in numeros_introducidos.split(",")]
 #Se comienza con def#
 
 def nombredelafuncion():
-    return Loquese necesita
+    return False
 
 
 #Si se necesita escribir en un archivo txt#
-
+lista =["pan","arroz","etc"]
 a = open("Lo que quieras", "w") # w porque es un archivo de escritura r si se quiere leer y a para agregar#
 a.write("\n".join(lista)) #se agregaria al txt por enters lo que este en la lista#
 a.close()#cierra el txt#
