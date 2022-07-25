@@ -126,3 +126,9 @@ a.close()#cierra el txt#
 with open("Nombre.txt", "w") as mi_archivo:
     mi_archivo.write("\n".join(lista))#Escribo en mi archivo#
 #desde aca ya cierra sin identacion#
+
+
+#Funcionalidades con el if y el for#
+
+if input_usuario.lower() in [a.lower for a in lista]:
+    hacer_algo
