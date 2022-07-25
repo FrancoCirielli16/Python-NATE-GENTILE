@@ -127,6 +127,20 @@ with open("Nombre.txt", "w") as mi_archivo:
     mi_archivo.write("\n".join(lista))#Escribo en mi archivo#
 #desde aca ya cierra sin identacion#
 
+#para leer un archivo txt#
+with open("Nombre.txt", "r") as mi_archivo:
+    lista = mi_archivo.read().split("\n")#read es lectura osea que leo lo que hay en el archivo nombre#
+#desde aca ya cierra sin identacion#
+
+#para leer un archivo txt y evitar errores#
+try:
+    with open("Nombre.txt", "r") as mi_archivo:
+        lista = mi_archivo.read().split("\n")#read es lectura osea que leo lo que hay en el archivo nombre#
+except FileNotFoundError: #Si colocamos Exception no importa que error va a imprirmir o hacer lo que le indicamos #
+    print("El archivo no exite")
+#desde aca ya cierra sin identacion#
+
+
 
 #Funcionalidades con el if y el for#
 
