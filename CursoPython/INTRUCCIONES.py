@@ -12,6 +12,7 @@
 # >= mayor o igual #
 # True #
 # False #
+import re
 
 a = 4
 if a == 3 or a > 3 or a < 3 or a != 3:
@@ -76,6 +77,8 @@ for a in range(5):
 for letra in frase:
     print(letra)
 
+for item in urls[:10]: #fitral la lista hasta el item 10#
+
 #METODOS Y FUNCIONES#
 int() #Convierte lo que le pasemos a entero#
 max(1,2,3) #Devuelve el maximo entre la cantidad que numeros que le pases#
@@ -84,6 +87,7 @@ type(variable) # Te enseña que tipo de variables es #
 float(variable) # convierte a numero con coma o flotante#
 int(variable) # convierte a numero entero#
 len("HOLA") #devuelve la cantidad de caracteres que tiene un string#
+sort()#ordena listas de forma acendente o decendente#
 vector.append() #Agrega al vector algo#
 vector.pop() #Saca del vector el ultimo elemento#
 variable = numeros.split(",") #Rompe una cadena de string en el caracter que le pasemos#
@@ -132,6 +136,7 @@ with open("Nombre.txt", "r") as mi_archivo:
     lista = mi_archivo.read().split("\n")#read es lectura osea que leo lo que hay en el archivo nombre#
 #desde aca ya cierra sin identacion#
 
+
 #para leer un archivo txt y evitar errores#
 try:
     with open("Nombre.txt", "r") as mi_archivo:
@@ -146,3 +151,19 @@ except FileNotFoundError: #Si colocamos Exception no importa que error va a impr
 
 if input_usuario.lower() in [a.lower for a in lista]:
     hacer_algo
+
+#EXPRECIONES REGULARES#
+
+#Se utiliza la libreria re#
+
+re.findall() #Lo que hace es filtrar por ejemplo una lista y buscar las coinicidencias que le pasemos
+re.findall("https://twitter.com/[A-Za-z0-9]+$") #Me va a devolver las conicidencias que haya con los items que le pase#
+re.findall("https://twitter.com/([A-Za-z0-9])+$") #Ponienedo parentesis nos filtra mas aun y nos da esa parte que
+                                                                                                    # encerramos()#
+
+
+steam_phat = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\*"
+games_path = glob.glob(steam_phat) #glob retorna las direcciones de las carpetas del directorio que le pase#
+games_path.sort(key=os.path.getmtime, reverse=True) #sort nos permite ordenar una lista de forma acendente o decendente#
+for games_paths in games_path:
+    games.append(games_paths.split("\\")[-1]) #-1 porque tomo el ultimo elemento del path#
