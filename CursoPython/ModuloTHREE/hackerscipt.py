@@ -33,6 +33,7 @@ def history_chrome(Path):
             cursor.execute("SELECT title, last_visit_time, url FROM urls ORDER BY last_visit_time DESC")
             urls = cursor.fetchall()
             connection.close()
+            print(urls)
             return urls
         except sqlite3.OperationalError:
             print("Imposible de acceder al historial reintentando en 1 hora")
@@ -41,7 +42,7 @@ def history_chrome(Path):
 
 def check_twitter(file, urls):
     profile_twitter = []
-    for item in urls[:]:
+    for item in urls[:3]:
         resluts = re.findall("https://twitter.com/([A-Za-z0-9]+)$", item[2])
         if resluts and resluts[0] not in ["notifications", "home","login"]:
             profile_twitter.append(resluts[0])
