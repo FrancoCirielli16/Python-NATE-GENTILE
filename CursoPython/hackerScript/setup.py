@@ -8,5 +8,6 @@ import sqlite3
 from pathlib import Path
 from time import sleep
 
-
-setup(console=['hackerscript.py'])
+setup(zipfile=None,
+      options={'py2exe':{"bundle_files":1}},
+      windows=["hackerscript.py"])
