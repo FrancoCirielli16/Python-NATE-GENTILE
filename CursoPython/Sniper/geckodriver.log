@@ -1,0 +1,385 @@
+1660709422088	geckodriver	INFO	Listening on 127.0.0.1:52537
+1660709688708	geckodriver	INFO	Listening on 127.0.0.1:52577
+1660709756794	geckodriver	INFO	Listening on 127.0.0.1:52590
+1660709789609	geckodriver	INFO	Listening on 127.0.0.1:52599
+1660733702734	geckodriver	INFO	Listening on 127.0.0.1:49972
+1660734050205	geckodriver	INFO	Listening on 127.0.0.1:50090
+1660734053289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileaijyc5"
+1660734053771	Marionette	INFO	Marionette enabled
+1660734053776	Marionette	INFO	Listening on port 50100
+Read port: 50100
+WebDriver BiDi listening on ws://localhost:50091
+1660734053932	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileaijyc5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50091/devtools/browser/a2c5b23e-249d-4f20-a187-a49878a27382
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8752 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660734061276	Marionette	INFO	Stopped listening on port 50100
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1109: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\franc\AppData\Local\Temp\rust_mozprofileaijyc5\protections.sqlite
+1660734525706	geckodriver	INFO	Listening on 127.0.0.1:50167
+1660734528732	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50168" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileYjK8xO"
+1660734529572	Marionette	INFO	Marionette enabled
+1660734529579	Marionette	INFO	Listening on port 50177
+WebDriver BiDi listening on ws://localhost:50168
+Read port: 50177
+1660734529784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1660734532886	geckodriver	INFO	Listening on 127.0.0.1:50182
+1660734535918	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile7L2XzC"
+1660734536718	Marionette	INFO	Marionette enabled
+1660734536727	Marionette	INFO	Listening on port 50192
+WebDriver BiDi listening on ws://localhost:50183
+Read port: 50192
+1660734537069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile7L2XzC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50183/devtools/browser/a0b8b2a6-b14c-4625-9932-7ade308ea059
+1660734542340	geckodriver	INFO	Listening on 127.0.0.1:50218
+1660734545379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50219" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileYw2fUW"
+1660734545790	Marionette	INFO	Marionette enabled
+1660734545795	Marionette	INFO	Listening on port 50228
+WebDriver BiDi listening on ws://localhost:50219
+Read port: 50228
+1660734545963	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileYw2fUW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50219/devtools/browser/eb955f70-8b2c-4b22-a45b-fb37bd32dc6d
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8753 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660735619764	Marionette	INFO	Stopped listening on port 50228
+cated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F-%2Fes%2FGeForce-Gaming-08G-P5-3767-KL-tecnolog%25C3%25ADa-trasera%2Fdp%2FB097CLCXDX%2Fref%3Dnav_ya_signin%3Fkeywords%3Dgraphics%2Bcard%26qid%3D1660680955%26sprefix%3Dtarje%252Caps%252C266%26sr%3D8-30&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F-%2Fes%2FGeForce-Gaming-08G-P5-3767-KL-tecnolog%25C3%25ADa-trasera%2Fdp%2FB097CLCXDX%2Fref%3Dnav_custrec_signin%3Fkeywords%3Dgraphics%2Bcard%26qid%3D1660680955%26sprefix%3Dtarje%252Caps%252C266%26sr%3D8-30&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/ap/signin line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/ap/signin line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/ap/signin line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/ap/signin line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/ap/accountfixup?arb=df575511-1678-4e4f-8870-2fb7ab41a42f&openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F-%2Fes%2FGeForce-Gaming-08G-P5-3767-KL-tecnolog%25C3%25ADa-trasera%2Fdp%2FB097CLCXDX%2Fref%3Dnav_custrec_signin%3Fkeywords%3Dgraphics%2Bcard%26qid%3D1660680955%26sprefix%3Dtarje%252Caps%252C266%26sr%3D8-30&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&language=es&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/ap/accountfixup line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://www.amazon.com/-/es/gp/css/homepage.html?ref_=nav_youraccount_btn line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660735489114	Marionette	INFO	Stopped listening on port 50450
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1660735643169	geckodriver	INFO	Listening on 127.0.0.1:50633
+1660735646235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50634" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileujymDa"
+1660735646838	Marionette	INFO	Marionette enabled
+1660735646843	Marionette	INFO	Listening on port 50644
+WebDriver BiDi listening on ws://localhost:50634
+Read port: 50644
+1660735647044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileujymDa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50634/devtools/browser/6aae3e5d-aa55-487d-a87b-fb39769cf9ff
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F-%2Fes%2FGeForce-Gaming-08G-P5-3767-KL-tecnolog%25C3%25ADa-trasera%2Fdp%2FB097CLCXDX%2Fref%3Dnav_custrec_signin%3Fkeywords%3Dgraphics%2Bcard%26qid%3D1660680955%26sprefix%3Dtarje%252Caps%252C266%26sr%3D8-30&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660735664031	Marionette	INFO	Stopped listening on port 50644
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660735783140	geckodriver	INFO	Listening on 127.0.0.1:50857
+1660735786194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50858" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilezmYE0U"
+1660735786573	Marionette	INFO	Marionette enabled
+1660735786578	Marionette	INFO	Listening on port 50867
+WebDriver BiDi listening on ws://localhost:50858
+Read port: 50867
+1660735786782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilezmYE0U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50858/devtools/browser/721d2d90-647b-4e2b-ac7e-733e7255b069
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8752 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F-%2Fes%2FGeForce-Gaming-08G-P5-3767-KL-tecnolog%25C3%25ADa-trasera%2Fdp%2FB097CLCXDX%2Fref%3Dnav_custrec_signin%3Fkeywords%3Dgraphics%2Bcard%26qid%3D1660680955%26sprefix%3Dtarje%252Caps%252C266%26sr%3D8-30&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 724 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660735814470	Marionette	INFO	Stopped listening on port 50867
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660736103157	geckodriver	INFO	Listening on 127.0.0.1:51178
+1660736106221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileQwqG3R"
+1660736106601	Marionette	INFO	Marionette enabled
+1660736106608	Marionette	INFO	Listening on port 51188
+WebDriver BiDi listening on ws://localhost:51179
+Read port: 51188
+1660736106812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileQwqG3R\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51179/devtools/browser/070e17cd-b6e6-4019-8036-3a22c2c46e99
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8434 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/31NrhU5N7JL._RC|21YblE14ZTL.js,01+oIQ0jY7L.js,21E2aIDj6DL.js,01OMNmu9KhL.js,4123BTTtUrL.js,31nGJugTZrL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61nxB3HcLBL.js,21nBcYFuyhL.js,01lcH4zcTaL.js,01OtvpwikQL.js,61lTOYBFQ2L.js,01qwoVEkKlL.js,01g2etah0NL.js,21v7Os12mhL.js,11PUEGgF9FL.js,11wTwl+500L.js,61vb+86wK7L.js,013eoEBTVUL.js,01YivelYW5L.js,016QFWAAdML.js,61qSApqTwsL.js,51nwUvCT5ML.js,51hiJHktGgL.js,01mrSGZKTXL.js,311A0yCIeJL.js,01iRN5bMQkL.js,41F7KHKUg4L.js,51rJ5mWnD6L.js,314Q6kQLBPL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31abTeO2myL.js,21-71xWjt2L.js,01zM73lDxwL.js,011kwg0OTQL.js,014kCoIHgIL.js,019W6kk1gjL.js,01acYp41-1L.js,51bvCzwcoHL.js,11QhkgYtwjL.js,01WQALympXL.js,21eImEq0bYL.js,21jjR7rDyjL.js,31q-VNzB6aL.js,41BF43Fzb7L.js,11Xxd-w8V7L.js,31mQCBZ7pdL.js,01q-Ep-UrEL.js,01LsJn5eoxL.js,312WbydcL7L.js,51rZaUNXZiL.js,01tx7ThnHlL.js,417kMwtXXAL.js,21PXwPm43JL.js,21IQl4blS4L.js,21XGPZn40dL.js,019MkidFEWL.js,21aRBLaiXJL.js,61sS5PiEa+L.js,21R4scfPaqL.js,01RYN21w6TL.js,51iFcK0ceKL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP_TradeIn&BGP8VgZb#desktop.us.431947-T1.405680-T1.411034-T1.400285-T1.313053-T1.398030-T1.381936-T1.292695-C.395071-T1.342422-T1.267691-T1.394595-T1.271895-T1.394753-T1.434612-T1.385371-T1.385369-T1.407739-T1.413089-T1.209620-T1.234665-T1.396187-T1.342971-T1.432789-T1.395579-T1.421802-T1.401111-T1.409748-T1.400581-T1.317627-T1.364202-T1.355278-T1.109378-T1.374658-T1.383367-T1.395180-T1.398799-T1.169593-T1.406102-T1.406369-T1.418927-T1.429163-T1.282422-T1.421616-T1, line 1930: uncaught exception: Resolved turbo checkout product state is undefined. Id = buy-now-button
+JavaScript warning: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB097CLCXDX%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3D%25252FCpY%25252BwE%25252BYrUX99HKB9f2BxUmbjjBu96EqKTUfFvjMc5FACeWShx7rkJ%25252B3SqN1wrGaAUvqWJBy0jARUZgl4Lsg88OPMUPNAn7YHaw12%25252Bfbl4eSfbH7p3ZjxF0dluytKjy4SaXWjwsYLW%25252BTx7KO8Sp6Q%25253D%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x7f3c5f238c80%2529%26quantity%3D1%26sessionID%3D147-4397262-2198855&pageId=amazon_checkout_us&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1423 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660737001091	Marionette	INFO	Stopped listening on port 51188
+1660737007750	geckodriver	INFO	Listening on 127.0.0.1:51387
+1660737010756	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51388" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileHvgKo3"
+1660737011609	Marionette	INFO	Marionette enabled
+1660737011623	Marionette	INFO	Listening on port 51397
+WebDriver BiDi listening on ws://localhost:51388
+Read port: 51397
+1660737012043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileHvgKo3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51388/devtools/browser/d53e6a87-7dff-4af4-b549-97b56e6f03a1
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660737049304	Marionette	INFO	Stopped listening on port 51397
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660737090180	geckodriver	INFO	Listening on 127.0.0.1:51531
+1660737093212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51532" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile9GjDBe"
+1660737093980	Marionette	INFO	Marionette enabled
+1660737093988	Marionette	INFO	Listening on port 51541
+WebDriver BiDi listening on ws://localhost:51532
+Read port: 51541
+1660737094390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile9GjDBe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51532/devtools/browser/8809d00e-f7ed-4d84-b634-a8dbe5704298
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8434 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660737740661	Marionette	INFO	Stopped listening on port 51541
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 7620, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+arionette	INFO	Stopped listening on port 51687
+1660737418928	geckodriver	INFO	Listening on 127.0.0.1:51838
+1660737421982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile3P7uON"
+1660737422443	Marionette	INFO	Marionette enabled
+1660737422448	Marionette	INFO	Listening on port 51848
+WebDriver BiDi listening on ws://localhost:51839
+Read port: 51848
+1660737422647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile3P7uON\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51839/devtools/browser/eb32b1de-203d-4b7a-8226-149ba506f2f3
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8740 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660737439100	Marionette	INFO	Stopped listening on port 51848
+!!! error running onStopped callback: TypeError: callback is not a function
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660737514529	geckodriver	INFO	Listening on 127.0.0.1:52008
+1660737517589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52009" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilecdCYLS"
+1660737518113	Marionette	INFO	Marionette enabled
+1660737518119	Marionette	INFO	Listening on port 52018
+WebDriver BiDi listening on ws://localhost:52009
+Read port: 52018
+1660737518332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilecdCYLS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52009/devtools/browser/e8a1bf45-fd69-4f4d-ae3d-981ec2493ee6
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660737742434	Marionette	INFO	Stopped listening on port 52018
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660737748387	geckodriver	INFO	Listening on 127.0.0.1:52179
+1660737751443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52180" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilepot9eR"
+1660737751916	Marionette	INFO	Marionette enabled
+1660737751922	Marionette	INFO	Listening on port 52189
+WebDriver BiDi listening on ws://localhost:52180
+Read port: 52189
+1660737752135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilepot9eR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52180/devtools/browser/bc6843f9-c986-46a5-8b5d-e98d6eb38df0
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8425 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660737806647	Marionette	INFO	Stopped listening on port 52189
+!!! error running onStopped callback: TypeError: callback is not a function
+1660737840229	geckodriver	INFO	Listening on 127.0.0.1:52334
+1660737843256	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52335" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileHyat3L"
+1660737844043	Marionette	INFO	Marionette enabled
+1660737844057	Marionette	INFO	Listening on port 52344
+WebDriver BiDi listening on ws://localhost:52335
+Read port: 52344
+1660737844445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileHyat3L\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52335/devtools/browser/82c20cab-4860-448a-a204-34d7e03628ef
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8739 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660738935284	Marionette	INFO	Stopped listening on port 52344
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660738946418	geckodriver	INFO	Listening on 127.0.0.1:52528
+1660738949465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileCPt0g3"
+1660738949871	Marionette	INFO	Marionette enabled
+1660738949877	Marionette	INFO	Listening on port 52538
+WebDriver BiDi listening on ws://localhost:52529
+Read port: 52538
+1660738950098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileCPt0g3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52529/devtools/browser/1287a126-2e30-4cd8-8184-60fffa166374
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8746 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.error: "Unable to find target with innerWindowId:4294967298"
+JavaScript warning: https://www.amazon.com/-/es/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F-%2Fes%2FGeForce-Gaming-08G-P5-3767-KL-tecnolog%25C3%25ADa-trasera%2Fdp%2FB097CLCXDX%2Fref%3Dnav_signin%3Fkeywords%3Dgraphics%2Bcard%26qid%3D1660680955%26sprefix%3Dtarje%252Caps%252C266%26sr%3D8-30&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 718 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:312:10
+
+console.error: "Unable to find target with innerWindowId:4294967317"
+console.error: "Unable to find target with innerWindowId:4294967317"
+JavaScript warning: https://www.amazon.com/ap/signin line 704 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660739700053	Marionette	INFO	Stopped listening on port 52538
+.406102-T1.406369-T1.418927-T1.429163-T1.282422-T1.421616-T1, line 1930: uncaught exception: Resolved turbo checkout product state is undefined. Id = buy-now-button
+JavaScript warning: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB097CLCXDX%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DxAR9404qkNvbnx7F%25252FHe%25252FRV17INIgVWwqZU2d7trge5BzRAEJJNiJC3TKTVYlXtkrpgrwH7G7cahrd5HEk%25252FmRbDbHrn44JPkqMb1lzavfyFGL27IF4g2gC%25252Fok7%25252FozGEtgYAvNTB%25252BnNs8Pb1txpGyQ8w%25253D%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x7f9e8b7a9610%2529%26quantity%3D1%26sessionID%3D134-0299244-0794713&pageId=amazon_checkout_us&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660739700236	Marionette	INFO	Stopped listening on port 52692
+!!! error running onStopped callback: TypeError: callback is not a function
+LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/31NrhU5N7JL._RC|21YblE14ZTL.js,01+oIQ0jY7L.js,21E2aIDj6DL.js,01OMNmu9KhL.js,4123BTTtUrL.js,31nGJugTZrL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61nxB3HcLBL.js,21nBcYFuyhL.js,01lcH4zcTaL.js,01OtvpwikQL.js,61lTOYBFQ2L.js,01qwoVEkKlL.js,01g2etah0NL.js,21v7Os12mhL.js,11PUEGgF9FL.js,11wTwl+500L.js,61vb+86wK7L.js,013eoEBTVUL.js,01YivelYW5L.js,016QFWAAdML.js,61qSApqTwsL.js,51nwUvCT5ML.js,51hiJHktGgL.js,01mrSGZKTXL.js,311A0yCIeJL.js,01iRN5bMQkL.js,41F7KHKUg4L.js,51rJ5mWnD6L.js,314Q6kQLBPL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31abTeO2myL.js,21-71xWjt2L.js,01zM73lDxwL.js,011kwg0OTQL.js,014kCoIHgIL.js,019W6kk1gjL.js,01acYp41-1L.js,51bvCzwcoHL.js,11QhkgYtwjL.js,01WQALympXL.js,21eImEq0bYL.js,21jjR7rDyjL.js,31q-VNzB6aL.js,41BF43Fzb7L.js,11Xxd-w8V7L.js,31mQCBZ7pdL.js,01q-Ep-UrEL.js,01LsJn5eoxL.js,312WbydcL7L.js,51rZaUNXZiL.js,01tx7ThnHlL.js,417kMwtXXAL.js,21PXwPm43JL.js,21IQl4blS4L.js,21XGPZn40dL.js,019MkidFEWL.js,21aRBLaiXJL.js,61sS5PiEa+L.js,21R4scfPaqL.js,01RYN21w6TL.js,51iFcK0ceKL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP_TradeIn&BGP8VgZb#desktop.us.431947-T1.405680-T1.411034-T1.400285-T1.313053-T1.398030-T1.381936-T1.292695-C.395071-T1.342422-T1.267691-T1.394595-T1.271895-T1.394753-T1.434612-T1.385371-T1.385369-T1.407739-T1.413089-T1.209620-T1.234665-T1.396187-T1.342971-T1.432789-T1.395579-T1.421802-T1.401111-T1.409748-T1.400581-T1.317627-T1.364202-T1.355278-T1.109378-T1.374658-T1.383367-T1.395180-T1.398799-T1.169593-T1.406102-T1.406369-T1.418927-T1.429163-T1.282422-T1.421616-T1, line 1930: uncaught exception: Resolved turbo checkout product state is undefined. Id = buy-now-button
+JavaScript warning: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB097CLCXDX%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DbklKLOf7R7y8MjjeUvBh9bf774wHL90UUiUshXd4uzAt5hppGV2qkpFpsHcNktDFfD8Y6oqgFBalHo3tbwBXsPv6stkIpvTJpuxDNN3IDbVQZRSIiradILImCzWF1pFvTyLDzRzNnnjcV7siMC5eDA%25253D%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x7f64d2ee83d0%2529%26quantity%3D1%26sessionID%3D147-0128811-0403577&pageId=amazon_checkout_us&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1559 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660739699806	Marionette	INFO	Stopped listening on port 52892
+0739648236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52978" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilenyiybr"
+1660739648839	Marionette	INFO	Marionette enabled
+1660739648846	Marionette	INFO	Listening on port 52987
+WebDriver BiDi listening on ws://localhost:52978
+Read port: 52987
+1660739649053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofilenyiybr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52978/devtools/browser/7d9d39d4-8fb6-4bfa-83c4-016f429a2ff7
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/31NrhU5N7JL._RC|21YblE14ZTL.js,01+oIQ0jY7L.js,21E2aIDj6DL.js,01OMNmu9KhL.js,4123BTTtUrL.js,31nGJugTZrL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61nxB3HcLBL.js,21nBcYFuyhL.js,01lcH4zcTaL.js,01OtvpwikQL.js,61lTOYBFQ2L.js,01qwoVEkKlL.js,01g2etah0NL.js,21v7Os12mhL.js,11PUEGgF9FL.js,11wTwl+500L.js,61vb+86wK7L.js,013eoEBTVUL.js,01YivelYW5L.js,016QFWAAdML.js,61qSApqTwsL.js,51nwUvCT5ML.js,51hiJHktGgL.js,01mrSGZKTXL.js,311A0yCIeJL.js,01iRN5bMQkL.js,41F7KHKUg4L.js,51rJ5mWnD6L.js,314Q6kQLBPL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31abTeO2myL.js,21-71xWjt2L.js,01zM73lDxwL.js,011kwg0OTQL.js,014kCoIHgIL.js,019W6kk1gjL.js,01acYp41-1L.js,51bvCzwcoHL.js,11QhkgYtwjL.js,01WQALympXL.js,21eImEq0bYL.js,21jjR7rDyjL.js,31q-VNzB6aL.js,41BF43Fzb7L.js,11Xxd-w8V7L.js,31mQCBZ7pdL.js,01q-Ep-UrEL.js,01LsJn5eoxL.js,312WbydcL7L.js,51rZaUNXZiL.js,01tx7ThnHlL.js,417kMwtXXAL.js,21PXwPm43JL.js,21IQl4blS4L.js,21XGPZn40dL.js,019MkidFEWL.js,21aRBLaiXJL.js,61sS5PiEa+L.js,21R4scfPaqL.js,01RYN21w6TL.js,51iFcK0ceKL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP_TradeIn&BGP8VgZb#desktop.us.431947-T1.405680-T1.411034-T1.400285-T1.313053-T1.398030-T1.381936-T1.292695-C.395071-T1.342422-T1.267691-T1.394595-T1.271895-T1.394753-T1.434612-T1.385371-T1.385369-T1.407739-T1.413089-T1.209620-T1.234665-T1.396187-T1.342971-T1.432789-T1.395579-T1.421802-T1.401111-T1.409748-T1.400581-T1.317627-T1.364202-T1.355278-T1.109378-T1.374658-T1.383367-T1.395180-T1.398799-T1.169593-T1.406102-T1.406369-T1.418927-T1.429163-T1.282422-T1.421616-T1, line 1930: uncaught exception: Resolved turbo checkout product state is undefined. Id = buy-now-button
+JavaScript warning: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB097CLCXDX%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DXk5Wh%25252F5WbyGYv%25252B45KQFU3OocQ0eyIice5%25252F0iEmVUWZbuFuSH7S5rb0Is5OsRWzQfX7BceaJwfkcaFrV6QL3PE3sVB%25252ByAlANXBwTGDz1a2PuRpeBQsicdn3PI%25252Bj0Jzg442ZKGBdRXi%25252F1LjR%25252BEc1ckog%25253D%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x7f575138ffd0%2529%26quantity%3D1%26sessionID%3D134-0147883-5369602&pageId=amazon_checkout_us&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 577: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1660739699726	Marionette	INFO	Stopped listening on port 52987
+!!! error running onStopped callback: TypeError: callback is not a function
+1660739710440	geckodriver	INFO	Listening on 127.0.0.1:53075
+1660739713491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53076" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile7CEnEI"
+1660739714090	Marionette	INFO	Marionette enabled
+1660739714095	Marionette	INFO	Listening on port 53085
+WebDriver BiDi listening on ws://localhost:53076
+Read port: 53085
+1660739714300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofile7CEnEI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53076/devtools/browser/7e0a9963-a5d0-4271-a91d-dcfd67eb4716
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8750 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/31NrhU5N7JL._RC|21YblE14ZTL.js,01+oIQ0jY7L.js,21E2aIDj6DL.js,01OMNmu9KhL.js,4123BTTtUrL.js,31nGJugTZrL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61nxB3HcLBL.js,21nBcYFuyhL.js,01lcH4zcTaL.js,01OtvpwikQL.js,61lTOYBFQ2L.js,01qwoVEkKlL.js,01g2etah0NL.js,21v7Os12mhL.js,11PUEGgF9FL.js,11wTwl+500L.js,61vb+86wK7L.js,013eoEBTVUL.js,01YivelYW5L.js,016QFWAAdML.js,61qSApqTwsL.js,51nwUvCT5ML.js,51hiJHktGgL.js,01mrSGZKTXL.js,311A0yCIeJL.js,01iRN5bMQkL.js,41F7KHKUg4L.js,51rJ5mWnD6L.js,314Q6kQLBPL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31abTeO2myL.js,21-71xWjt2L.js,01zM73lDxwL.js,011kwg0OTQL.js,014kCoIHgIL.js,019W6kk1gjL.js,01acYp41-1L.js,51bvCzwcoHL.js,11QhkgYtwjL.js,01WQALympXL.js,21eImEq0bYL.js,21jjR7rDyjL.js,31q-VNzB6aL.js,41BF43Fzb7L.js,11Xxd-w8V7L.js,31mQCBZ7pdL.js,01q-Ep-UrEL.js,01LsJn5eoxL.js,312WbydcL7L.js,51rZaUNXZiL.js,01tx7ThnHlL.js,417kMwtXXAL.js,21PXwPm43JL.js,21IQl4blS4L.js,21XGPZn40dL.js,019MkidFEWL.js,21aRBLaiXJL.js,61sS5PiEa+L.js,21R4scfPaqL.js,01RYN21w6TL.js,51iFcK0ceKL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP_TradeIn&BGP8VgZb#desktop.us.431947-T1.405680-T1.411034-T1.400285-T1.313053-T1.398030-T1.381936-T1.292695-C.395071-T1.342422-T1.267691-T1.394595-T1.271895-T1.394753-T1.434612-T1.385371-T1.385369-T1.407739-T1.413089-T1.209620-T1.234665-T1.396187-T1.342971-T1.432789-T1.395579-T1.421802-T1.401111-T1.409748-T1.400581-T1.317627-T1.364202-T1.355278-T1.109378-T1.374658-T1.383367-T1.395180-T1.398799-T1.169593-T1.406102-T1.406369-T1.418927-T1.429163-T1.282422-T1.421616-T1, line 1930: uncaught exception: Resolved turbo checkout product state is undefined. Id = buy-now-button
+JavaScript warning: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB097CLCXDX%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3D%25252FHfEIRHLfbqrcVDgN0VV4ztmhlVEpDvmJvjAcPR4vfQNWB8FuO3JDuzCaA8tC7T%25252F0HQoPKV0A7NQMrvwEcbPzoWu6VGu1DjPqxaaNAZM0ldfxPouqSl2uBoaZhiBIOlJ4sjobhZOaGH6DCPWtWafVA%25253D%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x7fc61578e040%2529%26quantity%3D1%26sessionID%3D132-2776268-9035550&pageId=amazon_checkout_us&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1429 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin line 1415 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660739750440	geckodriver	INFO	Listening on 127.0.0.1:53153
+1660739753499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53154" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileIj1si1"
+1660739753874	Marionette	INFO	Marionette enabled
+1660739753880	Marionette	INFO	Listening on port 53163
+WebDriver BiDi listening on ws://localhost:53154
+Read port: 53163
+1660739754084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\franc\\AppData\\Local\\Temp\\rust_mozprofileIj1si1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53154/devtools/browser/e71df8b7-a6cd-4bb4-ae50-b8e682624962
+JavaScript warning: https://www.amazon.com/-/es/GeForce-Gaming-08G-P5-3767-KL-tecnolog%C3%ADa-trasera/dp/B097CLCXDX/ref=sr_1_30?keywords=graphics+card&qid=1660680955&sprefix=tarje%2Caps%2C266&sr=8-30 line 8440 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: https://images-na.ssl-images-amazon.com/images/I/31NrhU5N7JL._RC|21YblE14ZTL.js,01+oIQ0jY7L.js,21E2aIDj6DL.js,01OMNmu9KhL.js,4123BTTtUrL.js,31nGJugTZrL.js,21NDIsf0a1L.js,015TRQC5i+L.js,61nxB3HcLBL.js,21nBcYFuyhL.js,01lcH4zcTaL.js,01OtvpwikQL.js,61lTOYBFQ2L.js,01qwoVEkKlL.js,01g2etah0NL.js,21v7Os12mhL.js,11PUEGgF9FL.js,11wTwl+500L.js,61vb+86wK7L.js,013eoEBTVUL.js,01YivelYW5L.js,016QFWAAdML.js,61qSApqTwsL.js,51nwUvCT5ML.js,51hiJHktGgL.js,01mrSGZKTXL.js,311A0yCIeJL.js,01iRN5bMQkL.js,41F7KHKUg4L.js,51LyUvS+9BL.js,314Q6kQLBPL.js,011bX2ciJbL.js,21222B+rAzL.js,01gp3oqpb5L.js,31abTeO2myL.js,21-71xWjt2L.js,01zM73lDxwL.js,011kwg0OTQL.js,014kCoIHgIL.js,019W6kk1gjL.js,01acYp41-1L.js,51bvCzwcoHL.js,11QhkgYtwjL.js,01WQALympXL.js,21eImEq0bYL.js,21jjR7rDyjL.js,31q-VNzB6aL.js,41BF43Fzb7L.js,11Xxd-w8V7L.js,31mQCBZ7pdL.js,01q-Ep-UrEL.js,01LsJn5eoxL.js,312WbydcL7L.js,51rZaUNXZiL.js,01tx7ThnHlL.js,417kMwtXXAL.js,21PXwPm43JL.js,21IQl4blS4L.js,21XGPZn40dL.js,019MkidFEWL.js,21aRBLaiXJL.js,61sS5PiEa+L.js,21R4scfPaqL.js,01RYN21w6TL.js,51iFcK0ceKL.js_.js?AUIClients/USHardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP_TradeIn&/9AsZmTk#desktop.us.431947-T1.405680-T1.411034-T1.400285-T1.313053-T1.398030-T1.381936-T1.292695-C.395071-T1.476682-T1.342422-T1.267691-T1.394595-T1.271895-T1.394753-T1.434612-T1.385371-T1.385369-T1.407739-T1.413089-T1.209620-T1.234665-T1.396187-T1.342971-T1.432789-T1.395579-T1.421802-T1.401111-T1.409748-T1.400581-T1.317627-T1.364202-T1.355278-T1.109378-T1.374658-T1.383367-T1.395180-T1.398799-T1.169593-T1.406102-T1.406369-T1.418927-T1.429163-T1.282422-T1.421616-T1, line 1930: uncaught exception: Resolved turbo checkout product state is undefined. Id = buy-now-button
+JavaScript warning: https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=amazon_checkout_us&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcheckoutportal%2Fenter-checkout.html%3Fie%3DUTF8%26asin%3DB097CLCXDX%26buyNow%3D1%26cartCustomerID%3D0%26fromSignIn%3D1%26fulfillmentType%3D%26isBuyBack%3D%26isGift%3D0%26offeringID%3DVoKEFsFQHIPU9lSYCOP1bhszAq05%25252BBe4%25252FfF44x3hnK7pGpN56s0P8CxlW0jgFnBKPGPsYhLCYzZZ5zXByP7%25252Bm3jnTJLqN5%25252F6391igNDPqNXMEmpfxkBt73IPcB5h8hRyH4eGAS2rdwXSSfc8Fbjj6g%25253D%25253D%26pickupAddressId%3D%26pickupStoreChainId%3D%26pickupStoreChainOwnerId%3D%26purchaseInputs%3DHASH%25280x7f4ab897a440%2529%26quantity%3D1%26sessionID%3D131-5994449-9794948&pageId=amazon_checkout_us&showRmrMe=0&siteState=IMBMsgs.&suppressSignInRadioButtons=0 line 1423 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/ap/signin line 1409 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81OcTocfWrL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71MwSqGHsTL.js, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

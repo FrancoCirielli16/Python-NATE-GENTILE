@@ -167,3 +167,14 @@ games_path = glob.glob(steam_phat) #glob retorna las direcciones de las carpetas
 games_path.sort(key=os.path.getmtime, reverse=True) #sort nos permite ordenar una lista de forma acendente o decendente#
 for games_paths in games_path:
     games.append(games_paths.split("\\")[-1]) #-1 porque tomo el ultimo elemento del path#
+
+
+#USANDO libreria webdriver y request
+
+USER = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"} #cargo un usuario normal para no levantar capchat#
+page = r.get(URL, headers=USER) #me conecto con el servidor de la pagina
+buy_zone = page.html.find('#buyNow') #cargo el html de la pagina
+#webdriver
+driver = webdriver.Firefox() #abro el firefox
+driver.get(URLa) #uso la url cargada #
+driver.find_element_by_class_name("").click #hago click en la clase que le indique#
