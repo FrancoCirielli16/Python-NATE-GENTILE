@@ -46,6 +46,19 @@ def comprobarStockCoolmod(URL):
         print(stock)
         if (stock == "on"):
             print("hay stock")
+            try:
+                driver = webdriver.Firefox()
+                driver.get(URL)
+                driver.find_element(By.ID, "").click()
+                sleep(1)
+                driver.find_element(By.ID, "").send_keys("ciriellifrancogiovanni@gmail.com")
+                driver.find_element(By.ID, "").click()
+                sleep(1)
+                driver.find_element(By.ID, "").send_keys("Franco1605")
+                driver.find_element(By.ID, "").click()
+            except:
+                print("Algo fallo")
+            break
         else:
             print("No hay stock")
         sleep(30)
@@ -55,7 +68,7 @@ def main():
     URLa = "https://www.amazon.com/-/es/GeForce-Gaming-Tarjeta-gr%C3%A1fica-ventilador/dp/B0971XRQR4/ref=sr_1_35?keywords=graphics+card&qid=1660740253&sprefix=tarje%2Caps%2C266&sr=8-35"
     URLpc = "https://www.pccomponentes.com/hp-victus-16-e0101ns-amd-ryzen-7-5800h-16gb-512gb-ssd-rtx-3060-161"
     URLc = "https://www.coolmod.com/corsair-sabre-rgb-pro-champions-series-gaming-18000-dpi-raton/"
-    #comprobarStockAMAZON(URLa)
+    comprobarStockAMAZON(URLa)
     #comprobarStockCoolmod(URLc)
 
 
