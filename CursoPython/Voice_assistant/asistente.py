@@ -1,13 +1,10 @@
 import re
+from speak_and_listen import speak, hear_me
 
 import pyttsx3
 import speech_recognition as sr
 
-def initialize_engine():
-    engine = pyttsx3.init()
-    engine.setProperty("voice", "spanish")
-    engine.say("Hola")
-    engine.runAndWait()
+
 
 def identify_name(text):
     name = None
@@ -16,29 +13,24 @@ def identify_name(text):
        try:
             name = re.findall(pattern, text)[0]
        except IndexError:
-            print("No me dijiste tu nombre")
-       return name
+            pass
+    return name
 
 
-def recognize_voice(r):
-    with sr.Microphone(device_index=0) as source:
-        print("Puedes hablar")
-        audio = r.record(source)
-        text = r.recognize_google(audio, lenguage="es-MX")
-    return text
-def speekwihtAssistan():
-    engine = initialize_engine()
+
+def speek_with_assistan():
+    speak("Hola como te llamas")
     r = sr.Recognizer()
-    text = recognize_voice(r)
-    name = identify_name(text)
+    text = hear_me()
+    name = identify_name(text.lower())
     if name:
-        engine.say("Encantado de conocerte {}".format(name[0]))
+        speak("Encantado de conocerte {}".format(name))
     else:
-        engine.say("No te entendi un carajo podes repetirme tu nombre?")
-    engine.runAndWait()
+        speak("No te entendi un carajo podes repetirme tu nombre?")
+
 
 def main():
-    speekwihtAssistan()
+    speek_with_assistan()
 
 
 if __name__ == "__main__":
