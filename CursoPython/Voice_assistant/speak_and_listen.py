@@ -2,7 +2,7 @@ import pyttsx3
 import speech_recognition as sr
 
 engine = pyttsx3.init()
-engine.setProperty("rate", 120)
+engine.setProperty("rate", 150)
 engine.setProperty("voice", "spanish")
 
 r = sr.Recognizer()
@@ -17,7 +17,7 @@ def hear_me():
         print("Escuchando...")
         audio = r.listen(source)
         try:
-            text = r.recognize_google(audio, language="es-MX")
+            text = r.recognize_google(audio, language="es-ES")
             print(text)
             return text
         except sr.UnknownValueError:
