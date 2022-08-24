@@ -1,3 +1,4 @@
+import pickle
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
@@ -5,8 +6,9 @@ pokemon_base = {"name": "",
                 "current_health": 100,
                 "base_health": 100,
                 "level": 1,
-                "type": [],
-                "current_exp": 0
+                "type": None,
+                "current_exp": 0,
+                "attacks": None
 
                 }
 
@@ -50,7 +52,6 @@ def get_pokemon(index):
     typeF = obtener_type(types)
     typeF = typeF.split(",")
     new_pokemon["type"] = []
-    print(typeF)
     for T in typeF:
         if T in ['planta', "veneno", "psiquico", "volador", "normal", "tierra"]:
             new_pokemon["type"].append(T)
@@ -64,15 +65,40 @@ def get_pokemon(index):
                     if T in ["electric"]:
                         new_pokemon["type"].append("electrico")
 
+    url = "{}{}".format("https://www.pokexperto.net/index2.php?seccion=nds/nationaldex/movimientos_nivel&pk=", index)
+    session = HTMLSession()
+    pokemon_page = session.get(url)
+    new_pokemon["attacks"] = []
+    for attacks_item in pokemon_page.html.find(".pkmain")[-1].find("tr .check3"):
+        attack = {
+            "name": attacks_item.find("td", first=True).find("a", first=True).text,
+            "type": attacks_item.find("td")[1].find("img", first=True).attrs["alt"],
+            "damage": int(attacks_item.find("td")[3].text.replace("--", "0")),
+            "min_level": attacks_item.find("th", first=True).text,
+        }
+        new_pokemon["attacks"].append(attack)
+
+
     return new_pokemon
 
 
 
-def main():
-    poke_dex = []
-    for index in range(1, 100):
-        poke_dex.append(get_pokemon(index))
+def get_all_pokemons():
+    try:
+        print("Cargando el archivos de pokemons...")
+        with open("pokedex.pkl", "rb") as pokedex:
+            all_pokemons = pickle.load(pokedex)
+    except FileNotFoundError:
+        print("Archivo no encontrado, cargando de internet...")
+        all_pokemons = []
+        for index in range(151):
+            all_pokemons.append(get_pokemon(index + 1))
+            print("*", end="")
+        with open("pokedex.pkl", "wb") as pokedex:
+            pickle.dump(all_pokemons, pokedex, -1)
+        print("\n¡Todos los pokemons se descargaron...")
 
-    print(poke_dex)
-if __name__ == "__main__":
-    main()
+    print("La lista de pokemons se cargo correctamente...")
+    return all_pokemons
+
+
